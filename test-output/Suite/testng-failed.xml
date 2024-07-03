@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="AshwinKallingal.SeleniumFramework.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Error Validation">
+    <classes>
+      <class name="AshwinKallingal.SeleniumFramework.TestCases.StandAloneTest"/>
+    </classes>
+  </test> <!-- Error Validation -->
+</suite> <!-- Failed suite [Suite] -->
