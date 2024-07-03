@@ -8,6 +8,7 @@ public class Retry implements IRetryAnalyzer{
 	int count = 0;
 	int maxTry = 1;
 
+	//Retest the Flakey Script
 	@Override
 	public boolean retry(ITestResult result) {
 		
